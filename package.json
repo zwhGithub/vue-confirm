@@ -1,0 +1,21 @@
+{
+  "name": "vue-confirm",
+  "version": "1.1.1",
+  "description": "一个带消息的和确定取消对话框   Confirm cancel dialog box",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zwhGithub"
+  },
+  "keywords": [
+    "vue-confirm",
+    "confirm",
+    "vue",
+    "alert"
+  ],
+  "author": "zwh",
+  "license": "ISC"
+}
