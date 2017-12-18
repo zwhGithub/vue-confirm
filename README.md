@@ -3,13 +3,19 @@
 * 基于 vue 2.0 开发的 confirm 对话框插件
 * 占用内存小，性能好，样式好看
 
+## 效果
+ ![效果](https://zwhgithub.github.io/vue-confirm/dist/demo2.jpeg)
+
+
+ ## Demo
+   [或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-confirm/dist/#/)
+
 ## Install
 
 ```shell
 npm i vue-confirm  --save
 cnpm i vue-confirm  --save //国内npm
 ```
-
 ## Quick Start Usage
 
 ```javascript
@@ -17,12 +23,7 @@ cnpm i vue-confirm  --save //国内npm
 import Confirm from 'vue-confirm';
 Vue.use(Confirm);
 
-## 效果
- ![效果](https://zwhgithub.github.io/vue-confirm/dist/demo2.jpeg)
 
-
- ## Demo
-   [或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-confirm/dist/#/)
 
 //在某个vue文件中使用;
 this.$confirm('content');
