@@ -9,6 +9,8 @@ Vue.config.productionTip = false;
 import Confirm from 'vue-confirm';
 Vue.use(Confirm);
 
+import Toast from 'vue-toast-component';
+Vue.use(Toast);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

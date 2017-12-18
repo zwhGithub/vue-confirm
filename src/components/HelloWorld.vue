@@ -16,11 +16,13 @@ export default {
   methods: {
     click: function() {
       this.$confirm('是否确定删除联系人')
-        .then(function() {
-          console.log('点击确定');
+        .then(() => {
+          console.log(this);
+          this.$toast('点击确定');
         })
-        .catch(function() {
+        .catch(() => {
           console.log('点击取消');
+          this.$toast('点击取消');
         });
     }
   }
