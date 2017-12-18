@@ -8,7 +8,7 @@
 
 
  ## Demo
-   [或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-confirm/dist/#/)
+   [在线demo](https://zwhgithub.github.io/vue-confirm/dist/#/)
 
 ## Install
 
