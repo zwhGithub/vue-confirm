@@ -17,15 +17,22 @@ cnpm i vue-confirm  --save //国内npm
 import Confirm from 'vue-confirm';
 Vue.use(Confirm);
 
+## 效果
+ ![效果](https://zwhgithub.github.io/vue-confirm/dist/demo2.jpeg)
+
+
+ ## Demo
+   [或者请用浏览器的手机模式查看](https://zwhgithub.github.io/vue-confirm/dist/#/)
+
 //在某个vue文件中使用;
-this.$confirm(content);
+this.$confirm('content');
 
 //举例  点击确定和取消之后有回调函数的
-this.$confirm('是否确定')
-  .then(function() {
+this.$confirm('是否确定删除联系人')
+  .then(() => {
     console.log('点击确定');
   })
-  .catch(function() {
+  .catch(() => {
     console.log('点击取消');
   });
 ```
