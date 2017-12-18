@@ -4,7 +4,7 @@
 * 占用内存小，性能好，样式好看
 
 ## 效果
- ![效果](https://zwhgithub.github.io/vue-confirm/dist/demo2.jpeg)
+ ![效果](https://zwhgithub.github.io/vue-confirm/dist/demo2.jpeg =100x100)
 
 
  ## Demo
